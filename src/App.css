@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: cyan;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 60px; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.meter{
+  background: url(./meter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: end;
+}
+.arrowimg{
+  width: 40% !important;
+  top: 100px;
+  position: absolute;
+}
+.chip:hover{
+  background-color: green !important;
+  color: white;
+}
+@media only screen and (max-width:450px){
+  .options-con{
+    margin: 0px !important;
+    box-shadow: none !important;
+  }
+}
